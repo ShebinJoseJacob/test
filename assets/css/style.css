@@ -438,7 +438,7 @@
         background: var(--greyLight-1);
     }
     .components {
-        width: 35rem;
+        width: 37rem;
         height: 40rem;
         border-radius: 3rem;
         box-shadow: 0.8rem 0.8rem 1.4rem var(--greyLight-2), -0.2rem -0.2rem 1.8rem var(--white);
@@ -449,7 +449,7 @@
         grid-template-rows: repeat(autofit, min-content);
         grid-column-gap: 1.5rem;
         grid-row-gap: 2.5rem;
-        margin: 3rem;
+        margin: 2.5rem;
     }
 
     #analyse{
@@ -462,7 +462,7 @@
         margin-top: -2rem;
         width: 25rem;
         height: 25rem;
-        margin-left: -17rem;
+        margin-left: -18rem;
     }
     
     .image{
@@ -481,9 +481,14 @@
     }
     
     .det{
-        font-size: 8rem;
+        font-size: 5rem;
         font-weight: 600;
         color: #5b0eeb;
+        margin-left: -15rem;
+    }
+
+    #start_stream{
+        margin-left: -2rem;
     }
 
     /*  BUTTONS  */
@@ -508,7 +513,7 @@
         color: var(--greyLight-1);
         margin-bottom: 3rem;
         margin-top: -1rem;
-        margin-left: -6rem;
+        margin-left: -9rem;
     }
     .btn__primary:hover {
         color: var(--white);
@@ -520,7 +525,7 @@
         grid-column: 1/3;
         grid-row: 3/4;
         color: var(--greyDark);
-        margin-left: -6rem;
+        margin-left: -9rem;
         margin-bottom: 3rem;
         margin-top: -2rem;
     }
