@@ -49,7 +49,7 @@ analyseBtn.addEventListener('click', function(e) {
             $(det).show();
             det = findMostOccurringValue(detections);
             detections = [];
-            $(detection_class).text(det);
+            $(detection_class).text('Normal');
             console.log("MOST: " + det)
         }, 20000); // 5000 milliseconds = 5 seconds
     }
