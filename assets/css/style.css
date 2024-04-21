@@ -462,13 +462,13 @@
         margin-top: -2rem;
         width: 25rem;
         height: 25rem;
-        margin-left: -18rem;
+        margin-left: -20rem;
     }
     
     .image{
         width: 35rem;
         height: 25rem;
-        margin-left: -2rem;
+        margin-left: -4rem;
     }
     .svg{
         width: 35rem;
@@ -481,14 +481,14 @@
     }
     
     .det{
-        font-size: 5rem;
+        font-size: 2rem;
         font-weight: 600;
         color: #5b0eeb;
-        margin-left: -15rem;
+        margin-left: -17rem;
     }
 
     #start_stream{
-        margin-left: -2rem;
+        margin-left: -4rem;
     }
 
     /*  BUTTONS  */
